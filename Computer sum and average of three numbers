@@ -1,0 +1,14 @@
+
+#include <iostream>
+using namespace std;
+int main() {
+    int a,b,c,sum, average;
+    cout<<"enter the value for a,b,c"<<endl;
+    cin>>a>>b>>c;
+    sum=a+b+c;
+    average=sum/3;
+    cout<<"sum="<<sum<<endl;
+    cout<<"average="<<average<<endl;
+
+    return 0;
+}
